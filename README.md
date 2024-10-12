@@ -104,3 +104,5 @@ For any questions or issues, please contact Saku on Discord: [sakuvlr].
 ---
 
 Thank you for using **Wemod Premium Unlocker - Saku**! 🎉
+
+![Python](https://img.shields.io/badge/Python-3.8.6-blue)
