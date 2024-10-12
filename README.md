@@ -1,6 +1,6 @@
 # Wemod Premium Unlocker - Saku
 
-Welcome to the **Wemod Premium Unlocker** repository developed by Hira. This script is designed to patch and restore WeMod application files. Please follow the instructions below to set up and use the script.
+Welcome to the **Wemod Premium Unlocker** repository developed by Saku. This script is designed to patch and restore WeMod application files. Please follow the instructions below to set up and use the script.
 
 ## Description
 
