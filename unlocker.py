@@ -20,7 +20,7 @@ import ctypes
 init(autoreset=True)
 console = Console()
 
-github_url = "https://github.com/Stochalt/Wemod-Premium-Unlocker"
+github_url = "https://github.com/sakusql/WeMod-Premium-Unlocker"
 
 
 current_time = ""
@@ -34,7 +34,7 @@ def update_time():
 
 
 def animate_console_title():
-    animated_title = "Wemod Premium Unlocker - Hira"
+    animated_title = "WeMod Premium Unlocker - Saku"
 
     while True:
         
