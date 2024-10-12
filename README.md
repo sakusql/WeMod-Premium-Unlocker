@@ -47,7 +47,7 @@ Before running the script, ensure you have:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/Stochalt/Wemod-Premium-Unlocker
+    git clone https://github.com/sakusql/Wemod-Premium-Unlocker
     cd Wemod-Premium-Unlocker
     ```
 
