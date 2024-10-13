@@ -1,108 +1,108 @@
 # Wemod Premium Unlocker - Saku
 
-Welcome to the **Wemod Premium Unlocker** repository developed by Saku. This script is designed to patch and restore WeMod application files. Please follow the instructions below to set up and use the script.
+Bienvenue dans le dépôt **Wemod Premium Unlocker** développé par Saku. Ce script est conçu pour patcher et restaurer les fichiers de l'application WeMod. Veuillez suivre les instructions ci-dessous pour configurer et utiliser le script.
 
 ## Description
 
-This Python script allows you to:
-- **Patch** the WeMod application by replacing the `app.asar` file with a modified version.
-- **Restore** the original `app.asar` file from a backup.
-- Includes integrity checks to ensure the script has not been modified.
+Ce script Python vous permet de :
+- **Patcher** l'application WeMod en remplaçant le fichier `app.asar` par une version modifiée.
+- **Restaurer** le fichier `app.asar` original à partir d'une sauvegarde.
+- Inclut des vérifications d'intégrité pour s'assurer que le script n'a pas été modifié.
 
-## Compatibility
+## Compatibilité
 
-**The script works with all versions of the WeMod application, except for version 9.10.0.**
-| Version         | Status           |
+**Le script fonctionne avec toutes les versions de l'application WeMod, sauf la version 9.10.0.**
+| Version         | Statut           |
 |-----------------|------------------|
-| 4.0.7           | ✅ Supported      |
-| 4.0.8           | ✅ Supported      |
-| 4.0.9           | ✅ Supported      |
-| 4.0.10          | ✅ Supported      |
-| 4.0.11          | ✅ Supported      |
-| 4.0.12          | ✅ Supported      |
-| 4.0.13          | ✅ Supported      |
-| 5.0.0           | ✅ Supported      |
-| 5.0.1           | ✅ Supported      |
-| 5.0.2           | ✅ Supported      |
-| 5.0.3           | ✅ Supported      |
-| 5.0.4           | ✅ Supported      |
-| 5.0.5           | ✅ Supported      |
-| 7.0.0           | ✅ Supported      |
-| 8.2.0           | ✅ Supported      | 
-| 8.3.0           | ✅ Supported      |
-| 9.0.0           | ❌ Not Supported  |
-| 9.10.0          | ❌ Not Supported  |
+| 4.0.7           | ✅ Supporté      |
+| 4.0.8           | ✅ Supporté      |
+| 4.0.9           | ✅ Supporté      |
+| 4.0.10          | ✅ Supporté      |
+| 4.0.11          | ✅ Supporté      |
+| 4.0.12          | ✅ Supporté      |
+| 4.0.13          | ✅ Supporté      |
+| 5.0.0           | ✅ Supporté      |
+| 5.0.1           | ✅ Supporté      |
+| 5.0.2           | ✅ Supporté      |
+| 5.0.3           | ✅ Supporté      |
+| 5.0.4           | ✅ Supporté      |
+| 5.0.5           | ✅ Supporté      |
+| 7.0.0           | ✅ Supporté      |
+| 8.2.0           | ✅ Supporté      | 
+| 8.3.0           | ✅ Supporté      |
+| 9.0.0           | ❌ Non Supporté  |
+| 9.10.0          | ❌ Non Supporté  |
 
-## Old WeMod Version
+## Ancienne version de WeMod
 https://www.wingetgui.com/apps/WeMod-WeMod/8-2-0
 
-## Prerequisites
+## Prérequis
 
-Before running the script, ensure you have:
-- Python 3 installed on your machine.
-- The required Python dependencies installed. (see below)
+Avant d'exécuter le script, assurez-vous d'avoir :
+- Python 3 installé sur votre machine.
+- Les dépendances Python requises installées. (voir ci-dessous)
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Clonez le dépôt :**
 
     ```bash
     git clone https://github.com/sakusql/Wemod-Premium-Unlocker
     cd Wemod-Premium-Unlocker
     ```
 
-2. **Install the dependencies:**
+2. **Installez les dépendances :**
 
-    Ensure the following modules are installed:
+    Assurez-vous que les modules suivants sont installés :
     - `colorama`
     - `tqdm`
     - `yaspin`
     - `rich`
 
-    You can install these dependencies using `pip`:
+    Vous pouvez installer ces dépendances en utilisant `pip` :
 
     ```bash
     pip install colorama tqdm yaspin rich
     ```
 
-3. **Place your files:**
+3. **Placez vos fichiers :**
 
-    Ensure that the `app.asar` file is present in the working directory.
+    Assurez-vous que le fichier `app.asar` est présent dans le répertoire de travail.
 
-## Usage
+## Utilisation
 
-1. **Run the script:**
+1. **Exécutez le script :**
 
-    To run the script, use the `start.bat` file included in the repository. This batch file sets up the environment and launches the Python script.
+    Pour exécuter le script, utilisez le fichier `start.bat` inclus dans le dépôt. Ce fichier batch prépare l'environnement et lance le script Python.
 
     ```bash
     start start.bat
     ```
 
-2. **Follow the Instructions:**
+2. **Suivez les instructions :**
 
-    The script will display a menu with the following options:
+    Le script affichera un menu avec les options suivantes :
     - **1** : Patch app
-    - **2** : Restore app
-    - **3** : Exit
+    - **2** : Restaurer app
+    - **3** : Quitter
 
-    Follow the displayed instructions to use the script's features.
+    Suivez les instructions affichées pour utiliser les fonctionnalités du script.
 
-## Integrity Check
+## Vérification d'intégrité
 
-The script includes an integrity check to ensure it has not been modified. If the check fails, the script will terminate with an error message.
+Le script comprend une vérification d'intégrité pour s'assurer qu'il n'a pas été modifié. Si la vérification échoue, le script se terminera avec un message d'erreur.
 
-## Notes
+## Remarques
 
-- **Modify** file paths and options according to your specific needs.
-- **Works with all versions of the WeMod application, except for version 9.10.0.** ⚠️
+- **Modifiez** les chemins de fichiers et les options selon vos besoins spécifiques.
+- **Fonctionne avec toutes les versions de l'application WeMod, sauf la version 9.10.0.** ⚠️
 
 ## Contact
 
-For any questions or issues, please contact Saku on Discord: [sakuvlr].
+Pour toute question ou problème, veuillez contacter Saku sur Discord : [sakuvlr].
 
 ---
 
-Thank you for using **Wemod Premium Unlocker - Saku**! 🎉
+Merci d'utiliser **Wemod Premium Unlocker - Saku**! 🎉
 
 ![Python](https://img.shields.io/badge/Python-3.8.6-blue)
